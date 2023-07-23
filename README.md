@@ -10,11 +10,11 @@
    <img src="Picture.png" alt="Overview of RFCL">
     <h2>Features</h2>
     <ul>
-        <li>Multi-center meta-learning for generating representative cluster centres </li>
-        <li>Internal robust aggregation for fair and effective model aggregation</li>
-        <li>Cosine similarity-based cluster selection for improved external aggregation</li>
-        <li>Personalized model sharing to align models with specific data distributions</li>
-        <li>Robustness against poisoning attacks with non-IID data</li>
+        <li>Multi-center meta-learning for generating representative cluster centres. </li>
+        <li>Internal robust aggregation for fair and effective model aggregation.</li>
+        <li>Cosine similarity-based cluster selection for improved external aggregation.</li>
+        <li>Personalized model sharing to align models with specific data distributions.</li>
+        <li>Robustness against poisoning attacks with non-IID data.</li>
     </ul>
     <h2>Robust Aggregation in FL</h2>
     <p>We Have six main aggregation schemes, including FedAvg (not robust), MKrum, Median, AFA, FedMGDA+, and CC. These aggregation methods are 
