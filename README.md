@@ -26,12 +26,11 @@
         <li>Clone this repository to your local machine.</li>
         <li>Install the required dependencies using <code>pip</code>:</li>
         <pre><code>pip install -r requirements.txt</code></pre>
-        <li>Follow the instructions in the <code>data</code> directory to set up the datasets for training and testing.</li>
+        <li>Follow the instructions in the <code>datasetLoaders</code> directory to set up the datasets for training and testing.</li>
         <li>Adjust hyperparameters and settings in the configuration file <code>CustomcConfig.py</code> to suit your experiments</li>
         <li>Start training the RFCL model by running the following command:</li>
         <pre><code>python main.py </code></pre>
     </ol>
-
     <h2>Work Built Upon References</h2>
     <ul>
    <li>Luis Muñoz-González, Kenneth T Co, and Emil C Lupu. 2019. Byzantine-robust federated machine learning through adaptive model averaging. arXiv preprint arXiv:1909.05125 (2019). </li>
