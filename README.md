@@ -46,7 +46,7 @@
 <h2>Acknowledgments</h2>
      <p>We gratefully acknowledge the financial support provided by the Saudi Arabian Ministry of Education and the Saudi Arabian Cultural Bureau in London, along with the Umm Al-Qura University in Makkah. Additionally, we extend our thanks to the High-End Computing facility at Lancaster University for providing the necessary computing resources for this research.</p>
 <h2>License</h2>
-    <p>This project is licensed under the MIT License - see the <a href="https://github.com/EbtisaamCS/rfcl/blob/main/LICENSE">LICENSE</a> file for details.</p>
+    <p>This project is licensed under the MIT License</p>
 
 
 
