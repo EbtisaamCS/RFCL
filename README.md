@@ -27,11 +27,9 @@
         <li>Install the required dependencies using <code>pip</code>:</li>
         <pre><code>pip install -r requirements.txt</code></pre>
         <li>Follow the instructions in the <code>data</code> directory to set up the datasets for training and testing.</li>
-        <li>Adjust hyperparameters and settings in the configuration file <code>config.yaml</code> to suit your experiment requirements.</li>
+        <li>Adjust hyperparameters and settings in the configuration file <code>CustomcConfig.py</code> to suit your experiments</li>
         <li>Start training the RFCL model by running the following command:</li>
-        <pre><code>python train.py --config config.yaml</code></pre>
-        <li>Evaluate the trained model on the test dataset:</li>
-        <pre><code>python evaluate.py --config config.yaml</code></pre>
+        <pre><code>python main.py </code></pre>
     </ol>
 
     <h2>Work Built Upon References</h2>
@@ -48,7 +46,7 @@
 <h2>Acknowledgments</h2>
      <p>We gratefully acknowledge the financial support provided by the Saudi Arabian Ministry of Education and the Saudi Arabian Cultural Bureau in London, along with the Umm Al-Qura University in Makkah. Additionally, we extend our thanks to the High-End Computing facility at Lancaster University for providing the necessary computing resources for this research.</p>
 <h2>License</h2>
-    <p>This project is licensed under the MIT License - see the <a href="https://github.com/your_username/rfcl/blob/main/LICENSE">LICENSE</a> file for details.</p>
+    <p>This project is licensed under the MIT License - see the <a href="https://github.com/EbtisaamCS/rfcl/blob/main/LICENSE">LICENSE</a> file for details.</p>
 
 
 
