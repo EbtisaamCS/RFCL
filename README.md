@@ -21,6 +21,19 @@
     carefully evaluated to assess their robustness against different adversarial attacks and data distribution scenarios.</p>
     <h2>FL Adversarial Strategies</h2>
     <p>We explore different adversarial attack strategies, such as Inner Product Manipulation (IPM), A Little Is Enough (ALIE), sign-flipping, random noise injection, and label-flipping. The evaluation considers various numbers of attackers and Non-IID data distributions on multiple datasets, including MNIST, CIFAR-10, and Fashion-MNIST.</p>
+    <h2>Getting Started</h2>
+    <ol>
+        <li>Clone this repository to your local machine.</li>
+        <li>Install the required dependencies using <code>pip</code>:</li>
+        <pre><code>pip install -r requirements.txt</code></pre>
+        <li>Follow the instructions in the <code>data</code> directory to set up the datasets for training and testing.</li>
+        <li>Adjust hyperparameters and settings in the configuration file <code>config.yaml</code> to suit your experiment requirements.</li>
+        <li>Start training the RFCL model by running the following command:</li>
+        <pre><code>python train.py --config config.yaml</code></pre>
+        <li>Evaluate the trained model on the test dataset:</li>
+        <pre><code>python evaluate.py --config config.yaml</code></pre>
+    </ol>
+
     <h2>Work Built Upon References</h2>
     <ul>
    <li>Luis Muñoz-González, Kenneth T Co, and Emil C Lupu. 2019. Byzantine-robust federated machine learning through adaptive model averaging. arXiv preprint arXiv:1909.05125 (2019). </li>
@@ -32,6 +45,14 @@
 <li>Gilad Baruch, Moran Baruch, and Yoav Goldberg, ‘A little is enough: Circumventing defenses for distributed learning’, Advances in Neural Information Processing Systems, 32, (2019). </li>
 
 </ul>
+<h2>Acknowledgments</h2>
+     <p>We gratefully acknowledge the financial support provided by the Saudi Arabian Ministry of Education and the Saudi Arabian Cultural Bureau in London, along with the Umm Al-Qura University in Makkah. Additionally, we extend our thanks to the High-End Computing facility at Lancaster University for providing the necessary computing resources for this research.</p>
+<h2>License</h2>
+    <p>This project is licensed under the MIT License - see the <a href="https://github.com/your_username/rfcl/blob/main/LICENSE">LICENSE</a> file for details.</p>
+
+
+
+
 
 
 
