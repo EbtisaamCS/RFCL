@@ -33,7 +33,7 @@
     </ol>
     <h2>Work Built Upon References</h2>
     <ul>
-    <li>It is built upon the work of Samuel Trew's Federated Learning repository, available at <a href="https://github.com/SamuelTrew/FederatedLearning">https://github.com/SamuelTrew/FederatedLearning</a>.</li>
+    
    <li>Luis Muñoz-González, Kenneth T Co, and Emil C Lupu. 2019. Byzantine-robust federated machine learning through adaptive model averaging. arXiv preprint arXiv:1909.05125 (2019). </li>
 <li>Peva Blanchard, Rachid Guerraoui, Julien Stainer, et al. 2017. Machine learning with adversaries: Byzantine tolerant gradient descent. In Advances in Neural Information Processing Systems. 119–129.</li>
 <li>Dong Yin, Yudong Chen, Ramchandran Kannan, and Peter Bartlett. 2018. Byzantine-Robust Distributed Learning: Towards Optimal Statistical Rates. In International Conference on Machine Learning. 5650–5659.</li>
